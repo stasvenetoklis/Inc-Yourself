@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"oPortrait",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oPortrait",
   "overriddenProperties":[],
