@@ -20,8 +20,10 @@
   "name":"Test",
   "resources":[
     {"id":{"name":"oPortrait","path":"objects/oPortrait/oPortrait.yy",},},
+    {"id":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sPortrait","path":"sprites/sPortrait/sPortrait.yy",},},
+    {"id":{"name":"stextBox","path":"sprites/stextBox/stextBox.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

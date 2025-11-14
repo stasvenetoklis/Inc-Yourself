@@ -2,6 +2,8 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"oPortrait","order":1,"path":"objects/oPortrait/oPortrait.yy",},
+    {"name":"oTextBox","order":3,"path":"objects/oTextBox/oTextBox.yy",},
     {"name":"sPortrait","order":2,"path":"sprites/sPortrait/sPortrait.yy",},
+    {"name":"stextBox","order":4,"path":"sprites/stextBox/stextBox.yy",},
   ],
 }
