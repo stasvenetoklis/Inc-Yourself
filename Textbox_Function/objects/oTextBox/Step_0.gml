@@ -1,15 +1,17 @@
-
-if (global.sequence = 0){
-	visible = false
-}
-
-if (global.sequence = 1)
+switch (global.sequence)
 {
-	textBox("According to all known laws of aviation, a bee should not be able to fly.",0,0)
+	case 1:
+		textBoxReal("According to all known laws of aviation, a bee should not be able to fly.",0,0)
+	break;
 	
-}
-
-if (global.sequence = 3)
-{
-	visible = false
+	case 3:
+		textBoxReal("Four score and seven years ago..",0,0)
+	break;
+	
+	
+	
+	
+	default:
+		resetTextBox()
+	break;
 }

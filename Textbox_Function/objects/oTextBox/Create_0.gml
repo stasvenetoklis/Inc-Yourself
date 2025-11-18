@@ -2,6 +2,8 @@ textTypeAlarmActive = false;
 
 textBoxVisible = false;
 
+executedOnce = false;
+
 global.sequence = 0
 
 //function with params for text, portrait, sfx
@@ -25,5 +27,20 @@ function textBox(text, index, soundfx)
 	
 	alarm[0] = 2;
 	
-	global.sequence++;
+	
+}
+
+function textBoxReal(t, j, sfx)
+{
+	if (!executedOnce)
+	{
+		textBox(t, j, sfx)
+		executedOnce = true;
+	}
+}
+
+function resetTextBox()
+{
+	visible = false
+	executedOnce = false
 }
