@@ -10,6 +10,7 @@
     {"name":"inst_463FC430_1","path":"rooms/rm_break_hall_front/rm_break_hall_front.yy",},
     {"name":"inst_2EF4538E1","path":"rooms/rm_break_hall_front/rm_break_hall_front.yy",},
     {"name":"inst_1C040DCE1","path":"rooms/rm_break_hall_front/rm_break_hall_front.yy",},
+    {"name":"inst_319A14A5","path":"rooms/rm_break_hall_front/rm_break_hall_front.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -26,6 +27,9 @@
         {"$GMRInstance":"v4","%Name":"inst_1C040DCE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C040DCE1","objectId":{"name":"obj_to_multipurpose","path":"objects/obj_to_multipurpose/obj_to_multipurpose.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_to_multipurpose","path":"objects/obj_to_multipurpose/obj_to_multipurpose.yy",},"propertyId":{"name":"door_instance","path":"objects/obj_to_multipurpose/obj_to_multipurpose.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.47851852,"scaleY":0.6207407,"x":1088.0,"y":672.0,},
+        {"$GMRInstance":"v4","%Name":"inst_319A14A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_319A14A5","objectId":{"name":"obj_to_mpr2","path":"objects/obj_to_mpr2/obj_to_mpr2.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_to_mpr2","path":"objects/obj_to_mpr2/obj_to_mpr2.yy",},"propertyId":{"name":"door_instance","path":"objects/obj_to_mpr2/obj_to_mpr2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1896297,"scaleY":1.5214815,"x":1567.9052,"y":768.00006,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_break_hall_front","path":"sprites/spr_break_hall_front/spr_break_hall_front.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
