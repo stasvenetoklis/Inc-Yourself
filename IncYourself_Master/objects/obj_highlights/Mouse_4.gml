@@ -1,0 +1,1 @@
+global.freeze_room_history = false;

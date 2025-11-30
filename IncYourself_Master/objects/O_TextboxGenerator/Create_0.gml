@@ -4,7 +4,7 @@ textBoxVisible = false;
 
 executedOnce = false;
 
-global.sequence = 0
+
 
 //function with params for text, portrait, sfx
 function textBox(text, index, soundfx)
