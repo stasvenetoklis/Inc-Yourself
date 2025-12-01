@@ -69,6 +69,7 @@ switch (global.sequenceMaster)
 				break;
 			case 9:
 				global.cubicles2 = 10
+				global.freeRoam = true
 				break;
 			
 		}	
