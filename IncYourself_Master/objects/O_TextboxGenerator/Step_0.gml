@@ -71,6 +71,43 @@ switch (global.sequenceMaster)
 				break;
 		}
 		break;
+	
+	case 6:
+		switch(global.cubicles2)
+		{	
+			case 1: 
+				dialogue("What do you want?",2)
+				break;
+			case 2:
+				dialogue("This is an office, not a club. We aren’t here to meet and be social.",2)
+				break;
+			case 3:
+				dialogue("It’s an office. We work. What else could you need to know?",2)
+				break;
+			case 4:
+				dialogue("You’re seriously that clueless? In any case, you just complete any tasks you’ve been assigned. I’m not even sure why you feel the need to be told that…",2)
+				break;
+			case 5:
+				dialogue("The Boss always knows when employees aren’t doing what they should. Not to mention the  performance review…",2)
+				break;
+			case 6:
+				dialogue("...",2)
+				break;
+			case 7:
+				dialogue("You truly are as daft as you look. It’s exactly what you think it is.",2)
+				break;
+			case 8:
+				dialogue("Since you’re struggling to make use of yourself. I need a cup of water, and be quick about it.",2)
+				break;
+			case 9:
+				dialogue("I remember seeing a watercooler in the break room..",0)
+				break;
+			default:
+				resetTextBox()
+				break;
+		}	
+		break;
+		
 	default:
 		resetTextBox()
 		break;

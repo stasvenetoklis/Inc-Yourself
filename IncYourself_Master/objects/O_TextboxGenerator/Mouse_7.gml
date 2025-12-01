@@ -50,5 +50,27 @@ switch (global.sequenceMaster)
 			
 		}
 		break;
-	
+	case 6: 
+		switch(global.cubicles2)
+		{	
+			
+			case 2:
+				global.cubicles2 = 3
+				break;
+			
+			case 6:
+				global.cubicles2 = 7
+				break;
+			case 7:
+				global.cubicles2 = 8
+				break;
+			case 8:
+				global.cubicles2 = 9
+				break;
+			case 9:
+				global.cubicles2 = 10
+				break;
+			
+		}	
+		break;
 }

@@ -2,20 +2,21 @@
 visible = false
 executedOnce = false
 
-function op1(text)
+function op2(text)
 {
-	if (!executedOnce)
-	{
-		option1Text = text
-		draw_set_font(fnt_optionbox)
 	
-		alarm[0] = global.totalIterations * 2
-		executedOnce = true;
-	}
+	
+	visible = true
+	option2Text = text
+	draw_set_font(fnt_optionbox)
+	
+		
+	
 }
 
-function resetOption1()
+function resetOption2()
 {
 	visible = false
-	executedOnce = false
+	
+	
 }

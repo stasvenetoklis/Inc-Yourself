@@ -33,7 +33,29 @@ switch (global.sequenceMaster)
 				break;
 		}
 		break;
-		
+	
+	
+	case 6:
+		switch(global.cubicles2)
+		{	
+			case 1: 
+				op1("Oh nothing, I’m new and wanted to meet the people I’d be working with")
+				break;
+			
+			case 3:
+				op1("Well, a lot in fact")
+				break;
+			case 4:
+				op1("How would anyone know I’m actually working? I could just appear to be busy.")
+				break;
+			case 5:
+				op1("Performance review?")
+				break;
+			
+			default:
+				resetOption1()
+		}
+		break;
 	default:
 		resetOption1()
 		break;

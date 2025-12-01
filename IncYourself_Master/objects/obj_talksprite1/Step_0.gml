@@ -65,6 +65,21 @@ switch (global.sequenceMaster)
 				break;
 		}
 		break;
+	
+	case 6:
+		switch(global.cubicles2)
+		{	
+			case 9:
+				talkSprite1(0,0)
+				break;
+			case 10:
+				talkSprite1(0,0)
+				break;
+			default:
+				talkSprite1(2,0)
+				break;
+		}
+		break;
 		
 		
 	default:

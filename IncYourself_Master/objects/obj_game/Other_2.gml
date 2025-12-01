@@ -18,7 +18,7 @@ global.cubicles1 = 1
 
 global.cubicles2 = 1
 
-global.breakRoom2 = 0
+global.breakRoom2 = 1
 
 global.kitchen1 = 0
 
