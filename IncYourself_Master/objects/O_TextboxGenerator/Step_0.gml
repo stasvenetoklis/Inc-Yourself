@@ -6,6 +6,6 @@ switch (global.sequenceMaster)
 		break;
 		
 	default:
-		visible = false;
+		
 		break;
 }

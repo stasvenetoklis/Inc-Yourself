@@ -1,22 +1,26 @@
 textTypeAlarmActive = false;
 
-textBoxVisible = false;
+global.textBoxVisible = false;
 
 executedOnce = false;
 
+global.textDoneType = true;
 
+//text customization 
+draw_set_colour(c_white);
+draw_set_font(fnt_textbox);
 
 //function with params for text, portrait, sfx
-function textBox(text, index, soundfx)
+function textBox(text, index)
 {
 	visible = true
 //draw text box with correlated portrait
-	portrait = index
-	textBoxVisible = true
+	global.currentPortrait = index
+	global.textBoxVisible = true
 
 
 //draw text
-	draw_set_colour(c_white)
+	
 	oldText = text;
 	newText = "";
 	i = 1;
@@ -24,17 +28,18 @@ function textBox(text, index, soundfx)
 
 	
 	textTypeAlarmActive = true;
+	global.textDoneType = false;
 	
 	alarm[0] = 2;
 	
 	
 }
 
-function dialogue(t, j, sfx)
+function dialogue(t, j)
 {
 	if (!executedOnce)
 	{
-		textBox(t, j, sfx)
+		textBox(t, j)
 		executedOnce = true;
 	}
 }

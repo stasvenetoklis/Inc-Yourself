@@ -11,4 +11,7 @@ if (i<=totalIterations)
 	TextTypeAlarmActive = true;
 }
 
-
+if (i>totalIterations)
+{
+	global.textDoneType = true;
+}
