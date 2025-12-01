@@ -5,13 +5,9 @@ TextTypeAlarmActive = false;
 
 i++;
 
-if (i<=totalIterations)
+if (i<=global.totalIterations)
 {
 	alarm[0] = 2;
 	TextTypeAlarmActive = true;
 }
 
-if (i>totalIterations)
-{
-	global.textDoneType = true;
-}

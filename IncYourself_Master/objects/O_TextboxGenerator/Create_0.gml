@@ -4,7 +4,7 @@ global.textBoxVisible = false;
 
 executedOnce = false;
 
-global.textDoneType = true;
+
 
 //text customization 
 draw_set_colour(c_white);
@@ -24,11 +24,11 @@ function textBox(text, index)
 	oldText = text;
 	newText = "";
 	i = 1;
-	totalIterations = string_length(text);
+	global.totalIterations = string_length(text);
 
 	
 	textTypeAlarmActive = true;
-	global.textDoneType = false;
+	
 	
 	alarm[0] = 2;
 	

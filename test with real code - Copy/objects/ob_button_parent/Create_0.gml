@@ -1,2 +1,0 @@
-interact = function() {
-}
