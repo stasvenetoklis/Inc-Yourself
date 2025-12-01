@@ -4,6 +4,8 @@ textBoxVisible = false;
 
 executedOnce = false;
 
+executedexecutedOnce = false;
+
 global.sequence = 0
 
 //function with params for text, portrait, sfx
@@ -32,13 +34,15 @@ function textBox(text, index, soundfx)
 
 function textBoxReal(t, j, sfx)
 {
-	if (!executedOnce)
+	if (!executedexecutedOnce)
 	{
-		textBox(t, j, sfx)
-		executedOnce = true;
+		if (!executedOnce)
+		{
+			textBox(t, j, sfx)
+			executedOnce = true;
+		}
 	}
 }
-
 function resetTextBox()
 {
 	visible = false

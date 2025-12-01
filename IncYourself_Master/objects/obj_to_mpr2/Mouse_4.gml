@@ -1,2 +1,6 @@
 event_inherited();
-room_goto(rm_multipurpose_2);
+if (visible)
+{
+	
+	room_goto(rm_multipurpose_2);
+}

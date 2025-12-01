@@ -1,3 +1,5 @@
 event_inherited();
-
-room_goto(rm_janitors_closet);
+if (visible)
+{
+	room_goto(rm_janitors_closet);
+}

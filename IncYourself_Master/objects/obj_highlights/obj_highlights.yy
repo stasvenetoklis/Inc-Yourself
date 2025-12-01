@@ -14,7 +14,10 @@
     "name":"movement",
     "path":"folders/movement.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_movementLock",
+    "path":"objects/O_movementLock/O_movementLock.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

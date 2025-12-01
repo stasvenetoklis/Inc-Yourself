@@ -7,6 +7,7 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_27CD76B1","path":"rooms/rm_breakroom_back/rm_breakroom_back.yy",},
+    {"name":"inst_4FF00F83","path":"rooms/rm_breakroom_back/rm_breakroom_back.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -15,6 +16,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_to_break_hall_front","path":"objects/obj_to_break_hall_front/obj_to_break_hall_front.yy",},"propertyId":{"name":"transparent","path":"objects/obj_to_break_hall_front/obj_to_break_hall_front.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_to_break_hall_front","path":"objects/obj_to_break_hall_front/obj_to_break_hall_front.yy",},"propertyId":{"name":"door_instance","path":"objects/obj_to_break_hall_front/obj_to_break_hall_front.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5259259,"scaleY":0.5970371,"x":1312.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4FF00F83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FF00F83","objectId":{"name":"O_movementLock","path":"objects/O_movementLock/O_movementLock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_breakroom_back","path":"sprites/spr_breakroom_back/spr_breakroom_back.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
