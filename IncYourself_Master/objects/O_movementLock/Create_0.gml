@@ -1,1 +1,1 @@
-global.freeRoam = false
+global.freeRoam = true

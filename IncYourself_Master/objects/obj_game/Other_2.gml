@@ -6,7 +6,7 @@ global.room_history_count = 0;
 
 //sequence handler
 
-global.sequenceMaster = 2
+global.sequenceMaster = 0
 
 global.reception1 = 1
 
